@@ -52,7 +52,7 @@
 /* Dots */
 .slick-slider { margin-bottom: 30px; }
 
-.slick-dots {  display: none; top: 180px; position: absolute; bottom: 0px; left: -35px; list-style: none; text-align: center; padding: 0; width: 100%; }
+.slick-dots { position: absolute; bottom: 0px; left: -35px; list-style: none; text-align: center; padding: 0; width: 100%; }
 
 .slick-dots li { position: relative; display: inline-block; height: 20px; width: 20px; margin: 0 5px; padding: 0; cursor: pointer; }
 .slick-dots li button { border: 0; background: transparent; display: block; height: 20px; width: 20px; outline: none; line-height: 0; font-size: 0; color: transparent; padding: 5px; cursor: pointer; }
@@ -61,8 +61,11 @@
 .slick-dots li button:before { position: absolute; top: 0; left: 0; content: "•"; width: 20px; height: 20px; font-family: "slick"; font-size: 6px; line-height: 20px; text-align: center; color: black; opacity: 0.25; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 .slick-dots li.slick-active button:before { color: black; opacity: 0.75; }
 
+/* Everything below is client-specific. Take it out if you don't need it */
+
 .slick-dots {
 	display: none !important;
+	top: 180px;
 }
 
 .testimonials-container,
