@@ -10,4 +10,9 @@
 
 - Example: `[testimonials number="10"]`
 
+- Example output:
+
+![Plugin output example](https://cldup.com/jJNyKgJINM-3000x3000.png)
+
 - Nothing else.
+
